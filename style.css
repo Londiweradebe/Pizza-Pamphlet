@@ -1,0 +1,52 @@
+body {
+    background-color: black;
+}
+
+.small {
+padding: 1em;
+margin: 1em;
+background-color:white;
+  border: 10px solid black;
+
+}
+.Medium {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border: 10px solid black;
+    opacity: 2;
+  
+}
+.Large {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+    border: 10px solid black;
+    opacity: 2;
+  
+  
+} 
+.contact {
+    padding: 1em;
+    margin: 1em;
+    background-color:white;
+    border-radius: 10px;
+    text-align: center;
+    
+}
+.heading {
+    padding: 1em;
+    margin: 1em;
+    background-color: white;
+}
+@media(min-width: 768px) {
+    .body {
+        background-color: azure;
+    }
+    .pizzas {
+        display: flex;
+        border-radius: 1em;
+        padding: 1em;
+        margin: 1em;
+    }
+}
